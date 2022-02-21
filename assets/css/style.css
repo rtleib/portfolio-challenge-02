@@ -44,32 +44,38 @@ body {
 section {
     padding: 100px;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
+}
+.hero a {
+    color:#ffe761dc;
+    font-size: 26px;
+    flex-wrap: wrap;
 }
 .box-one {
     background-image: url("../images/myself.jpg");
     height:400px;
     width: 400px;
-    background-size:65%;
+    background-size:100%;
     background-repeat: no-repeat;
     background-position:center;
     position: relative;
     border: solid 5px #f4989d;
+    text-align: center;
+    top: 50px;
+    padding-top: 340px;
 }
 .box-two {
     background-image: url("../images/screen-shot.png");
     height:200px;
     width: 200px;
-    background-size: cover;
-    background-position: center;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position:center;
     position: relative;
-}
-.box-three {
-    background-image: url("../images/hero-bg.jpeg");
-    /* height: 600px;
-    background-size: cover; */
-    background-position: center;
-    position: relative;
+    border: solid 5px #f4989d;
+    text-align: center;
+    top: 50px;
 }
 footer {
     background: #f4989d;
