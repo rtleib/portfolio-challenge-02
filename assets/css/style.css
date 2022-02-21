@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    padding: 40px 40px;
+    background-image: url("../images/pink-glitter-header.jpeg");
+ 
+}
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    display: inline;
+    position: relative;
+    top: 30px;
+}
+header a {
+    text-decoration: none;
+    color: #ffe761dc;
+}
+header nav {
+    float: right;
+    position: relative;
+    top: 40px;
+    right: 20px;
+}
+header nav ul li{
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 26px;
+}
+body {
+    background-image: url("../images/glitter-background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: Helvetica, Arial, sans-serif;
+}
+section {
+    padding: 60px;
+    display: flexbox;
+    justify-content: space-around;
+}
+.hero {
+    background-image: url("../images/hero-bg.jpeg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero-form{
+    color: #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    border: solid 3px #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+footer {
+    background: #f4989d;
+    width: 100%;
+    position: relative;
+    top: 90px;
+    /* padding: 40px 35px; */
+}
+footer h3 {
+    display: block;
+    color: #ffe761dc;
+    font-size: 26px;
+    margin: 0;
+}
+footer div {
+    line-height: 1.5;
+    text-align: center;
+    font-style: italic;
+    color: #ffe761dc;
+}
+footer a {
+    color: #ffe761dc;
+}
