@@ -42,33 +42,40 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 section {
-    padding: 60px;
-    display: flexbox;
+    padding: 100px;
+    display:flex;
     justify-content: space-around;
 }
-.hero {
-    background-image: url("../images/hero-bg.jpeg");
-    height: 600px;
+.box-one {
+    background-image: url("../images/myself.jpg");
+    height:400px;
+    width: 400px;
+    background-size:65%;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: relative;
+    border: solid 5px #f4989d;
+}
+.box-two {
+    background-image: url("../images/screen-shot.png");
+    height:200px;
+    width: 200px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
-.hero-form{
-    color: #024e76;
-    background-color: #fce138;
-    padding: 20px;
-    width: 500px;
-    border: solid 3px #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
+.box-three {
+    background-image: url("../images/hero-bg.jpeg");
+    /* height: 600px;
+    background-size: cover; */
+    background-position: center;
+    position: relative;
 }
 footer {
     background: #f4989d;
     width: 100%;
     position: relative;
     top: 90px;
-    /* padding: 40px 35px; */
 }
 footer h3 {
     display: block;
