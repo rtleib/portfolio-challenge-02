@@ -50,18 +50,17 @@ body {
 }
 .about-me {
     position: relative;
-    border: solid 5px #f4989d;
+    background-image: linear-gradient(to right, #f4989d, #ffe761dc);
     border-radius: 30px;
     text-align: center;
     padding: 50px 300px;
     bottom: 50px;
     justify-content: space-evenly;
-
 }
 .my-work-samples {
     position: relative;
     display: flex;
-    border: solid 5px #f4989d;
+    background-image: linear-gradient(to right, #ffe761dc, #f4989d);
     border-radius: 30px;
     text-align: center;
     padding: 50px 400px;
