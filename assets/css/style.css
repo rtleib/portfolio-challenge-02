@@ -1,7 +1,8 @@
 header {
     padding: 40px 40px;
     background-image: url("../images/pink-glitter-header.jpeg");
- 
+    height: 100%;
+    width: 100%;
 }
 header h1 {
     font-weight: bold;
@@ -14,6 +15,7 @@ header h1 {
 header a {
     text-decoration: none;
     color: #ffe761dc;
+    text-shadow: 2px 2px 4px black;
 }
 header nav {
     float: right;
@@ -47,6 +49,7 @@ body {
     color:#ffe761dc;
     font-size: 26px;
     flex-wrap: wrap;
+    text-shadow: 2px 2px 4px black;
 }
 .about-me {
     position: relative;
@@ -84,7 +87,9 @@ footer div {
     text-align: center;
     font-style: italic;
     color: #ffe761dc;
+    text-shadow: 2px 2px 4px black;
 }
 footer a {
     color: #ffe761dc;
+    text-shadow: 2px 2px 4px black;
 }
