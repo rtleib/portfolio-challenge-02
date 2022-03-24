@@ -38,10 +38,10 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 .container {
-    padding: 100px;
     display: flex;
     justify-content: space-evenly;
-    
+    padding: 250px;
+    transform: translateX(20%);
 }
 .container a {
     color:#ffe761dc;
@@ -53,20 +53,20 @@ body {
     border: solid 5px #f4989d;
     border-radius: 30px;
     text-align: center;
-    padding: 10px 90px;
+    padding: 50px 300px;
     bottom: 50px;
-    /* padding-top: 340px; */
+    justify-content: space-evenly;
+
 }
 .my-work-samples {
-    background-size:100%;
-    background-repeat: no-repeat;
-    background-position:center;
     position: relative;
     display: flex;
     border: solid 5px #f4989d;
     border-radius: 30px;
     text-align: center;
-    padding: 50px 300px;
+    padding: 50px 400px;
+    justify-content: space-evenly;
+
 }
 footer {
     background: #f4989d;
