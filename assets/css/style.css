@@ -1,7 +1,9 @@
-header {
+*{
+    font-family: 'Lobster', cursive;
+}
+    header {
     padding: 40px 40px;
     background-image: url("../images/pink-glitter-header.jpeg");
-    height: 100%;
     width: 100%;
 }
 header h1 {
@@ -28,47 +30,53 @@ header nav ul li{
 }
 header nav ul li a {
     margin: 0 30px;
-    /* font-weight: lighter; */
     font-size: 26px;
 }
 body {
-    background-image: url("../images/glitter-background.jpeg");
+    background-image: url("../images/background1.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
-    font-family: Helvetica, Arial, sans-serif;
+    background-attachment: fixed;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 .container {
     display: flex;
     justify-content: space-evenly;
     padding: 250px;
-    transform: translateX(20%);
-}
-.container a {
-    color:#ffe761dc;
-    font-size: 26px;
-    flex-wrap: wrap;
-    text-shadow: 2px 2px 4px black;
 }
 .about-me {
     position: relative;
-    background-image: linear-gradient(to right, #f4989d, #ffe761dc);
+    display: flex;
+    background-image: linear-gradient(to right, #f4989d, white, #ffe761dc, white);
     border-radius: 30px;
+    border: 5px #ffe761dc;
     text-align: center;
-    padding: 50px 300px;
-    bottom: 50px;
+    padding: 20px 20px;
+    bottom: 100px;
     justify-content: space-evenly;
+    color:#ffe761dc;
+    font-size: 30px;
+    flex-wrap: wrap;
+    text-shadow: 2px 2px 4px black;
+}
+.pictureMyself{
+    border-radius: 15px;
 }
 .my-work-samples {
     position: relative;
     display: flex;
-    background-image: linear-gradient(to right, #ffe761dc, #f4989d);
+    background-image: linear-gradient(to right, #ffe761dc, white, #f4989d, white);
     border-radius: 30px;
     text-align: center;
-    padding: 50px 400px;
+    padding: 20px 20px;
     justify-content: space-evenly;
-
+    color:#ffe761dc;
+    font-size: 26px;
+    flex-wrap: wrap;
+    text-shadow: 2px 2px 4px black;
 }
 footer {
     background: #f4989d;
@@ -83,7 +91,7 @@ footer h3 {
     margin: 0;
 }
 footer div {
-    line-height: 1.5;
+    line-height: 5.5;
     text-align: center;
     font-style: italic;
     color: #ffe761dc;
