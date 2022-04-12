@@ -19,16 +19,17 @@ header a {
     color: #ffe761dc;
     text-shadow: 2px 2px 4px black;
 }
-.about-btn {
+header a:hover {
+    color: #df8cf8ef;
+}
+.header-btn {
     /* background-image: linear-gradient(to right, white, #f4989d); */
     background-color: rgba(255, 32, 32, 0.322);
-    color: #ffe761dc;
-    text-shadow: 2px 2px 4px black;
     border-radius: 30px;
     border: none;
 }
-header a:hover {
-    color: #df8cf8ef;
+.header-btn:hover {
+    box-shadow: 0 10px 20px 0 rgba(255, 241, 47, 0.945), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 header nav {
     float: right;
