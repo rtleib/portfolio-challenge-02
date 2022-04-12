@@ -1,35 +1,17 @@
 *{
     font-family: 'Ropa Sans', sans-serif;
 }
-    header {
+header {
     padding: 40px 40px;
-    /* background-image: url("../images/pink-glitter-header.jpeg"); */
-    /* width: 100%; */
 }
 header h1 {
     font-weight: bold;
-    font-size: 40px;
-    display: inline;
+    font-size: 70px;
+    display: block;
     position: relative;
-    top: 30px;
+    top: 5px;
     color: #df8cf8ef;
-}
-header a {
-    text-decoration: none;
-    color: #ffe761dc;
-    text-shadow: 2px 2px 4px black;
-}
-header a:hover {
-    color: #df8cf8ef;
-}
-.header-btn {
-    /* background-image: linear-gradient(to right, white, #f4989d); */
-    background-color: rgba(255, 32, 32, 0.322);
-    border-radius: 30px;
-    border: none;
-}
-.header-btn:hover {
-    box-shadow: 0 10px 20px 0 rgba(255, 241, 47, 0.945), 0 17px 50px 0 rgba(0,0,0,0.19);
+    text-shadow: 2px 2px 4px blue;
 }
 header nav {
     float: right;
@@ -43,6 +25,22 @@ header nav ul li{
 header nav ul li a {
     margin: 0 30px;
     font-size: 26px;
+    text-decoration: none;
+    color: #ffe761dc;
+    text-shadow: 2px 2px 4px black;
+}
+header nav ul li a:hover {
+    color: #df8cf8ef;
+    text-shadow: 2px 2px 4px blue;
+}
+.header-btn {
+    background-color: rgba(255, 32, 32, 0.322);
+    border-radius: 30px;
+    border: none;
+}
+.header-btn:hover {
+    box-shadow: 0 10px 20px 0 rgba(255, 241, 47, 0.945), 0 17px 50px 0 rgba(0,0,0,0.19);
+    text-shadow: 2px 2px 4px blue;
 }
 body {
     /* background-image: url("../images/background1.jpeg"); */
@@ -62,6 +60,7 @@ body {
 }
 .about-me {
     position: relative;
+    float: right;
     display: flex;
     background-image: linear-gradient(to right, #f4989d, #df8cf8ef);
     border-radius: 30px;
