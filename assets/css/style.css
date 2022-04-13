@@ -12,12 +12,14 @@ header h1 {
     top: 5px;
     color: #df8cf8ef;
     text-shadow: 2px 2px 4px blue;
+    text-align: left;
 }
 header nav {
-    float: right;
+    /* float: right; */
     position: relative;
     top: 40px;
     right: 20px;
+    text-align: right;
 }
 header nav ul li{
     display: inline;
@@ -57,10 +59,10 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding: 250px;
+    text-align: left;
 }
 .about-me {
     position: relative;
-    float: right;
     display: flex;
     background-image: linear-gradient(to right, #f4989d, #df8cf8ef);
     border-radius: 30px;
@@ -89,6 +91,11 @@ body {
     font-size: 26px;
     flex-wrap: wrap;
     text-shadow: 2px 2px 4px black;
+}
+.my-work-samples a {
+    margin-bottom: 30px;
+    padding: 0%;
+    /* display: block; */
 }
 footer {
     width: 100%;
